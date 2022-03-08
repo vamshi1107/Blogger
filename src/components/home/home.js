@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom"
 
 function Home() {
 
-  var navigate=useNavigate()
+  const navigate=useNavigate()
   
    useEffect(()=>{
        var v=eval(window.sessionStorage.getItem("login")||false)

@@ -5,6 +5,7 @@ import Home from './components/home/home';
 import Write from './components/write/write';
 import Login from './components/login/login';
 import Signup from './components/signup/signup';
+import Myblogs from './components/myblogs/myblogs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/write' element={<Write/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
           <Route path='/signup' element={<Signup/>}></Route>
+          <Route path='/myblogs' element={<Myblogs/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

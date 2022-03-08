@@ -1,0 +1,54 @@
+.mwhole{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px ;
+}
+
+.blogscon {
+    margin-top: 30px;
+}
+
+.mblog{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 0.1px solid grey;
+    justify-content: space-between;
+}
+
+.msub{
+    display: flex;
+    flex-direction: row;
+}
+
+.bimg{
+    height: 150px;
+    width: 150px;
+}
+
+.bimg > img{
+    width: 100%;
+    height: 100%;
+}
+
+.mdesc{
+    margin-left: 20px;
+}
+
+.mbtitle{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mbcontent{
+
+}
+
+.mhead{
+    font-size: 1.7rem;
+    font-weight: bold;
+}

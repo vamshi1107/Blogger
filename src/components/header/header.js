@@ -20,7 +20,7 @@ const Header=(props)=>{
                 </div>
                 <div className="menu">
                     <a href='write'><div className="menuitem m1">Write</div></a>
-                    <a><div className="menuitem m2">Your articles</div></a>
+                    <a href='myblogs'><div className="menuitem m2">My blogs</div></a>
                     <div className="menuitem m3" onClick={logout}>Logout</div>
                 </div>
             </header>
